@@ -58,19 +58,6 @@ The dataset includes customer information such as:
 * 📦 Contract Type Distribution
 * 🌐 Internet Service Distribution
 
----
-
-## 📊 Dashboard Features
-
-* Executive KPI Cards
-* Churn Rate Analysis
-* Customer Demographics
-* Contract Type Analysis
-* Payment Method Analysis
-* Service Subscription Analysis
-* Monthly Charges vs. Churn
-* Interactive Filters and Slicers
-* Dynamic Charts and Drill-down Analysis
 
 ---
 
@@ -82,18 +69,6 @@ The dataset includes customer information such as:
 * Evaluated how monthly charges and tenure influence customer churn.
 * Provided actionable insights to support customer retention strategies.
 
----
-
-## 📷 Dashboard Preview
-
-> Add screenshots of your dashboard here.
-
-Example:
-
-* Executive Dashboard
-* Customer Demographics
-* Churn Analysis
-* Service & Contract Insights
 
 ---
 
@@ -139,7 +114,7 @@ Example:
 
 **Yash Chand**
 
-Aspiring Data Analyst | Power BI | SQL | Excel | Python | AI-Assisted Analytics
+Data Analyst | Power BI | SQL | Excel | Python | AI-Assisted Analytics
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
