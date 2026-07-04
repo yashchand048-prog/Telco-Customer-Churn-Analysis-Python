@@ -1,81 +1,146 @@
-📊 Executive Summary: Telco Customer Churn Analysis
+# 📊 Telco Customer Churn Analysis Dashboard
 
-This report explores customer churn trends using transactional and service data from a telecom company. The goal is to pinpoint why customers leave and what factors can enhance retention. The analysis involves data preprocessing, insightful visualizations, and key statistical findings.
+## 📌 Project Overview
 
-🔍 Key Insights :
+This project presents an interactive **Telco Customer Churn Analysis Dashboard** built using **Power BI**. The dashboard analyzes customer behavior, subscription patterns, and churn trends to help businesses understand why customers leave and identify opportunities to improve customer retention.
 
-1. Overall Churn Rate:-
+By transforming raw telecom data into actionable insights, the dashboard supports data-driven decisions for reducing churn and increasing customer loyalty.
 
-   • About 26.54% of customers have churned — a significant portion requiring focused retention strategies.
+---
+
+## 🎯 Business Objectives
+
+* Analyze customer churn patterns and trends.
+* Identify factors influencing customer retention.
+* Compare churn across customer demographics and service plans.
+* Monitor key business metrics through interactive dashboards.
+* Enable stakeholders to make informed retention strategies.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Power BI**
+* **Power Query**
+* **DAX (Data Analysis Expressions)**
+* **Microsoft Excel / CSV**
+* **Data Modeling**
+
+---
+
+## 📂 Dataset
+
+The dataset includes customer information such as:
+
+* Customer ID
+* Gender
+* Senior Citizen Status
+* Partner & Dependents
+* Tenure
+* Internet Service
+* Phone Service
+* Contract Type
+* Payment Method
+* Monthly Charges
+* Total Charges
+* Churn Status
+
+---
+
+## 📈 Key Performance Indicators (KPIs)
+
+* 👥 Total Customers
+* ❌ Churned Customers
+* ✅ Active Customers
+* 📉 Churn Rate
+* 💰 Average Monthly Charges
+* 📅 Average Customer Tenure
+* 📦 Contract Type Distribution
+* 🌐 Internet Service Distribution
+
+---
+
+## 📊 Dashboard Features
+
+* Executive KPI Cards
+* Churn Rate Analysis
+* Customer Demographics
+* Contract Type Analysis
+* Payment Method Analysis
+* Service Subscription Analysis
+* Monthly Charges vs. Churn
+* Interactive Filters and Slicers
+* Dynamic Charts and Drill-down Analysis
+
+---
+
+## 📌 Business Insights
+
+* Identified customer segments with the highest churn rate.
+* Analyzed the relationship between contract type and customer retention.
+* Compared churn across different payment methods and internet services.
+* Evaluated how monthly charges and tenure influence customer churn.
+* Provided actionable insights to support customer retention strategies.
+
+---
+
+## 📷 Dashboard Preview
+
+> Add screenshots of your dashboard here.
+
+Example:
+
+* Executive Dashboard
+* Customer Demographics
+* Churn Analysis
+* Service & Contract Insights
+
+---
+
+## 🚀 How to Use
+
+1. Download the `.pbix` file.
+2. Open it in **Power BI Desktop**.
+3. Refresh the dataset if required.
+4. Explore the dashboard using filters and slicers.
+
+---
+
+## 📁 Repository Structure
+
+```text
+📦 Telco-Customer-Churn-Analysis
+│
+├── Telco Customer Churn Dashboard.pbix
+├── Telco Customer Churn Dataset.csv
+├── Dashboard Screenshots/
+├── README.md
+└── Assets/
+```
+
+---
+
+## 📚 Skills Demonstrated
+
+* Data Cleaning
+* Data Transformation
+* Data Modeling
+* DAX Calculations
+* Business Intelligence
+* Customer Analytics
+* Churn Analysis
+* KPI Development
+* Data Visualization
+* Analytical Thinking
+
+---
+
+## 👤 Author
+
+**Yash Chand**
+
+Aspiring Data Analyst | Power BI | SQL | Excel | Python | AI-Assisted Analytics
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 
-2. Demographics and Churn:-
-
-   • Senior Citizens are more likely to churn than younger customers.
-   
-   • Churn is significantly higher in customers with short tenure (1–2 months), indicating early dissatisfaction or unmet expectations.
-
-
-3. Service Contracts:-
-
-   • Customers with Month-to-Month contracts show the highest churn rate, while those with One or Two-Year contracts have much lower churn, reflecting the role of long-term engagement.
-
-
-4. Internet Service Dependency:-
-
-   • Customers not using internet-based services (e.g., Online Security, Tech Support) tend to be more stable.
-
-   • However, those who do use services like StreamingTV and StreamingMovies are less likely to churn, suggesting that value-added services improve satisfaction.
-
-
-5. Service Usage and Churn:-
-
-   • Across multiple service categories, the "No" group (not using a service) exhibits higher churn than those who use the services.
-
-   • This indicates that lack of engagement or perceived value in the services may lead to customer exits.
-
-
-6. Payment Methods:-
-
-   • Customers who pay via Electronic Check have a notably higher churn rate than those using other payment methods (like credit card or bank transfer), possibly due to lower automation or user friction.
-
-
-
-
-📈 Visual Highlights :
-
-  • Countplots and percentage-based stacked bar charts visually reinforce churn trends across contract types, service usage, and demographics.
-
-  • Strong visual contrasts emphasize the relationship between engagement and retention — customers using more services are clearly more loyal.
-
-
-
-📌 Key Takeaways & Strategic Actions : 
-
-1. Retain Early Customers: Improve onboarding and engagement for customers in the first 3 months.
-
-
-2. Convert to Long-Term Contracts: Offer incentives for upgrading from month-to-month to yearly plans.
-
-
-3. Promote Internet-Based Add-ons: Provide bundled offers with security, backup, and entertainment features.
-
-
-4. Target At-Risk Demographics: Tailor support and communication for Senior Citizens.
-
-
-5. Discourage Manual Payment: Encourage auto-pay setups with small discounts or loyalty points.
-
- Conclusion:
-
-Your analysis clearly identifies churn-prone segments and key churn drivers. By focusing on:
-• Long-term contracts,
-
-• Increasing service usage (especially internet-based features),
-
-• Targeting senior citizens with better onboarding and support,
-
-• Addressing friction in payment methods,
-
-
-…the telecom provider can improve customer satisfaction and reduce churn.
